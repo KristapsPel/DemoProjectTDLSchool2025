@@ -1,0 +1,26 @@
+<suite name="ArithmeticOperationSuite">
+    <test name = "Add Test">
+        <classes>
+            <class name = "addTests.AddTest"/>
+        </classes>
+    </test>
+
+    <test name = "Subtract Test">
+        <classes>
+            <class name="subtractTest.SubtractTest"/>
+        </classes>
+    </test>
+
+    <test name="Multiplay Test">
+        <classes>
+            <class name="multiplyTest.MultiplayTest"/>
+        </classes>
+    </test>
+
+    <test name="Divide Test">
+        <classes>
+            <class name="divideTest.DivideTest"/>
+            <class name="divideTest.DivideByZeroTests"/>
+        </classes>
+    </test>
+</suite>

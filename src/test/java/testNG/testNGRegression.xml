@@ -1,0 +1,16 @@
+<suite name = "Regression tests">
+    <test name = "All test with regression group">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="addTests.AddTest"/>
+            <class name="subtractTest.SubtractTest"/>
+            <class name="multiplyTest.MultiplayTest"/>
+            <class name="divideTest.DivideTest"/>
+            <class name="divideTest.DivideByZeroTests"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,6 @@
+<suite name="MasterSuite">
+    <suite-files>
+        <suite-file path="testNGSmoke.xml"/>
+        <suite-file path="testNGRegression.xml"/>
+    </suite-files>
+</suite>
